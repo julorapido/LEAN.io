@@ -2,9 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class caca : MonoBehaviour
+public class floor : MonoBehaviour
 {
-    public GameObject floor;
+    public GameObject flooor;
     public int bruh;
     // Start is called before the first frame update
     void Start()
@@ -15,6 +15,6 @@ public class caca : MonoBehaviour
         IEnumerator WaitOff(){
             yield return new WaitForSeconds(bruh);
 
-            floor.SetActive(false);
+            flooor.SetActive(false);
         } 
 }
